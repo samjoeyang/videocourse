@@ -1590,6 +1590,7 @@ JS libraries, plugins and custom scripts -->
             var year = myDate.getFullYear();
             var domain = window.location.host || "MOOC COURSE DEMO"
             $("#copyright_host").text(domain.toUpperCase())
+            $("#copyright_host").attr('href',domain)
             $("#copyright_year").text(year)
         })
     </script>
