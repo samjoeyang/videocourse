@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>会员中心 - 视频教程网站 - DEMO</title>
+	<title>选课中心 - 视频教程网站 - DEMO</title>
 
 	<!-- Meta Tags -->
 	<meta charset="utf-8">
@@ -230,17 +230,21 @@ Header START -->
 											alt="avatar">
 									</div>
 									<div>
-										<a class="h6 mt-2 mt-sm-0" href="#">用户的姓名</a>
-										<!-- <p class="small m-0">example@example.com</p> -->
+										<a class="h6 mt-2 mt-sm-0" href="#"> Louis Ferguson</a>
+										<p class="small m-0">example@gmail.com</p>
 									</div>
 								</div>
 								<hr>
 							</li>
 							<!-- Links -->
-							<li><a class="dropdown-item" href="#"><i class="bi bi-person fa-fw me-2"></i>个人资料</a></li>
-							<!-- <li><a class="dropdown-item" href="#"><i class="bi bi-gear fa-fw me-2"></i>Account Settings</a></li>
-						<li><a class="dropdown-item" href="#"><i class="bi bi-info-circle fa-fw me-2"></i>Help</a></li> -->
-							<li><a class="dropdown-item" href="#"><i class="bi bi-power fa-fw me-2"></i>退出</a></li>
+							<li><a class="dropdown-item" href="#"><i class="bi bi-person fa-fw me-2"></i>Edit
+									Profile</a></li>
+							<li><a class="dropdown-item" href="#"><i class="bi bi-gear fa-fw me-2"></i>Account
+									Settings</a></li>
+							<li><a class="dropdown-item" href="#"><i class="bi bi-info-circle fa-fw me-2"></i>Help</a>
+							</li>
+							<li><a class="dropdown-item" href="#"><i class="bi bi-power fa-fw me-2"></i>Sign Out</a>
+							</li>
 							<li class="dropdown-divider mb-3"></li>
 							<li>
 								<div class="dropdown-item">
@@ -270,119 +274,371 @@ Header END -->
 Main contain START -->
 		<section class="py-4">
 			<div class="container">
-				<div class="row g-4">
-
+				<div class="row pb-4">
 					<div class="col-12">
-						<!-- Counter START -->
-						<div class="row g-4">
-
-							<!-- Counter item -->
-							<div class="col-sm-6 col-lg-3">
-								<div class="card card-body border p-3">
-									<div class="d-flex align-items-center">
-										<!-- Icon -->
-										<div class="icon-xl fs-1 bg-success bg-opacity-10 rounded-3 text-success">
-											<!-- <i class="bi bi-people-fill"></i> -->
-											<svg t="1667972088412" class="icon" viewBox="0 0 1024 1024" version="1.1"
-												xmlns="http://www.w3.org/2000/svg" p-id="4992" width="48" height="48">
-												<path
-													d="M532.7 884.6h-36.2c-3.8 0-7.6-1.1-10.8-3.2l-35.5-22.8c-88.3-56.7-256.5-55.8-384.4-36-13.4 2.1-26.8-2.2-36.6-11.6-9.9-9.6-14.7-22.9-13-36.6l68.1-567c2.1-17.7 17.1-31 34.9-31h38.3c11 0 20 9 20 20s-9 20-20 20h-34.1L55.9 779.1c-0.2 1.6 0.6 2.6 1.1 3.1 0.8 0.7 1.7 1 2.7 0.9 72.4-11.2 148.1-15.2 213.1-11.3 85 5.1 152 23 199 53.2l30.5 19.6h24.5l30.5-19.6c47.2-30.3 113.9-48.6 198.2-54.4 65.6-4.5 141-1 212.4 9.9 0.4 0.1 1.5 0.2 2.6-0.9 0.5-0.5 1.3-1.5 1.1-3.1l-66-560.1h-34c-11 0-20-9-20-20s9-20 20-20h38.3c17.8 0 32.9 13.4 35 31.1l66.5 564.4c1.6 13.7-3.1 27-13 36.6-9.8 9.4-23.1 13.7-36.5 11.7-68.6-10.4-140.9-13.8-203.7-9.5-76.4 5.3-138.4 21.9-179.3 48.2l-35.5 22.8c-3.1 1.8-6.9 2.9-10.7 2.9z"
-													fill="#F6658E" p-id="4993"></path>
-												<path
-													d="M486.4 694.7c-4.1 0-8.1-1.2-11.6-3.7l-27.7-19.6c-39.2-27.8-85.9-41.3-142.6-41.3-27.7 0-58.8 3.2-95 9.8-2.4 0.4-4.8 0.6-7.2 0.6-11 0-21.5-4.6-28.7-12.6-7.1-7.8-10.4-17.8-9.5-28.2L206 145.4c0.8-8.8 7.2-16 15.9-17.8 41.8-8.6 76.4-15.2 109.5-15.2 49.2 0 90.8 14.5 138.9 48.6l27.7 19.6c5.3 3.7 8.4 9.8 8.4 16.3v477.7c0 7.5-4.2 14.3-10.8 17.8-2.9 1.5-6 2.3-9.2 2.3zM304.6 590.1c63.5 0 116.5 15 161.9 46V207.3l-19.3-13.6c-41.4-29.3-74.9-41.3-115.8-41.3-25.7 0-53.8 4.8-86.9 11.4l-40.2 436.3c37.8-6.7 70.6-10 100.3-10z"
-													fill="#F6658E" p-id="4994"></path>
-												<path
-													d="M514 694.7c-6.3 0-12.4-2.9-16.3-8.4-6.4-9-4.3-21.5 4.8-27.9l27.7-19.6c85.9-60.9 187.1-52.8 266.1-38.6L756 163.8c-84.4-17-131.6-20.6-202.7 29.8l-27.7 19.6c-9 6.4-21.5 4.3-27.9-4.8-6.4-9-4.3-21.5 4.8-27.9l27.7-19.6c88.3-62.6 148.9-54 248.4-33.4 8.6 1.8 15.1 9 15.9 17.8l41.9 454.4c1.1 11.5-3.3 22.7-11.9 30.6-8.9 8.2-21.4 11.7-33.5 9.5-76-13.8-163.7-20.9-237.7 31.5L525.6 691c-3.5 2.5-7.6 3.7-11.6 3.7z"
-													fill="#F6658E" p-id="4995"></path>
-												<path
-													d="M562.5 363c-6.3 0-12.4-2.9-16.3-8.4-6.4-9-4.3-21.5 4.8-27.9l24.7-17.5c55.1-39.1 99-32.2 145.5-24.9 6.4 1 13 2 19.6 3 10.9 1.5 18.6 11.6 17.1 22.5s-11.6 18.6-22.5 17.1c-7-1-13.8-2-20.4-3.1-43.1-6.8-74.3-11.7-116.2 18L574 359.3c-3.5 2.5-7.5 3.7-11.5 3.7zM562.5 472.1c-6.3 0-12.4-2.9-16.3-8.4-6.4-9-4.3-21.5 4.8-27.9l24.7-17.5c54.9-38.9 108-30.5 154.8-23.1 6.8 1.1 13.8 2.2 20.6 3.1 10.9 1.5 18.6 11.6 17.1 22.5s-11.6 18.6-22.5 17.1c-7.2-1-14.4-2.1-21.4-3.2-44.9-7.1-83.7-13.3-125.4 16.3L574 468.4c-3.5 2.5-7.5 3.7-11.5 3.7zM436.3 362.5c-4 0-8-1.2-11.5-3.7l-24.2-17.2c-41-29.1-71.6-24.3-113.9-17.6-6.4 1-13.1 2.1-20 3-10.9 1.5-21-6.1-22.5-17.1-1.5-10.9 6.1-21 17.1-22.5 6.5-0.9 13-1.9 19.3-2.9 45.7-7.2 88.9-14 143.2 24.5l24.2 17.2c9 6.4 11.1 18.9 4.8 27.9-4 5.5-10.2 8.4-16.5 8.4zM436.3 469.8c-4 0-8-1.2-11.5-3.7l-24.2-17.2c-41.6-29.5-80.9-23.4-126.5-16.4-6.2 1-12.6 1.9-18.9 2.8-10.9 1.5-21-6.1-22.5-17.1-1.5-10.9 6.1-21 17.1-22.5 6.1-0.8 12.3-1.8 18.3-2.7 47.3-7.3 100.9-15.5 155.7 23.3l24.2 17.2c9 6.4 11.1 18.9 4.8 27.9-4 5.4-10.2 8.4-16.5 8.4z"
-													fill="#F6658E" p-id="4996"></path>
-											</svg>
-										</div>
-										<!-- Content -->
-										<div class="ms-3">
-											<h3>134.6 学时</h3>
-											<h6 class="mb-0">已完成课时长</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Counter item -->
-							<div class="col-sm-6 col-lg-3">
-								<div class="card card-body border p-3">
-									<div class="d-flex align-items-center">
-										<!-- Icon -->
-										<div class="icon-xl fs-1 bg-primary bg-opacity-10 rounded-3 text-primary">
-											<i class="bi bi-file-earmark-text-fill"></i>
-										</div>
-										<!-- Content -->
-										<div class="ms-3">
-											<h3>12</h3>
-											<h6 class="mb-0">已选课程数量</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Counter item -->
-							<div class="col-sm-6 col-lg-3">
-								<div class="card card-body border p-3">
-									<div class="d-flex align-items-center">
-										<!-- Icon -->
-										<div class="icon-xl fs-1 bg-danger bg-opacity-10 rounded-3 text-danger">
-											<i class="bi bi-suit-heart-fill"></i>
-										</div>
-										<!-- Content -->
-										<div class="ms-3">
-											<h3>124 段</h3>
-											<h6 class="mb-0">已学完视频数量</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Counter item -->
-							<div class="col-sm-6 col-lg-3">
-								<div class="card card-body border p-3">
-									<div class="d-flex align-items-center">
-										<!-- Icon -->
-										<div class="icon-xl fs-1 bg-info bg-opacity-10 rounded-3 text-info">
-											<!-- <i class="bi bi-bar-chart-line-fill"></i> -->
-											<svg t="1667972394829" class="icon" viewBox="0 0 1024 1024" version="1.1"
-												xmlns="http://www.w3.org/2000/svg" p-id="6114" width="48" height="48">
-												<path
-													d="M977.709589 946.849315h-28.054794V234.257534c0-19.638356-15.430137-35.068493-35.068494-35.068493H737.841096c-19.638356 0-35.068493 15.430137-35.068493 35.068493v712.591781h-63.123288V51.90137c0-19.638356-15.430137-35.068493-35.068493-35.068493H427.835616c-19.638356 0-35.068493 15.430137-35.068493 35.068493v894.947945h-70.136986V396.975342c0-19.638356-15.430137-35.068493-35.068493-35.068493H110.816438c-19.638356 0-35.068493 15.430137-35.068493 35.068493v549.873973H54.706849c-19.638356 0-35.068493 15.430137-35.068493 35.068493s15.430137 35.068493 35.068493 35.068493h924.40548c19.638356 0 35.068493-15.430137 35.068493-35.068493s-16.832877-35.068493-36.471233-35.068493z m-831.824657 0V432.043836H252.493151v514.805479h-106.608219z m317.019178 0V86.969863h106.608219v859.879452H462.90411z m310.005479 0V269.326027h106.608219v677.523288h-106.608219z"
-													p-id="6115" fill="#F6658E"></path>
-											</svg>
-										</div>
-										<!-- Content -->
-										<div class="ms-3">
-											<h3>35 分钟</h3>
-											<h6 class="mb-0">平均观看时长</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
+						<!-- Title -->
+						<div class="d-sm-flex justify-content-sm-between align-items-center">
+							<h1 class="mb-2 mb-sm-0 h2">课程列表 <span
+									class="badge bg-primary bg-opacity-10 text-primary">207</span></h1>
+							<a href="#" class="btn btn-sm btn-primary mb-0"><i class="fas fa-plus me-2"></i>Add new
+								category</a>
 						</div>
-						<!-- Counter END -->
 					</div>
+				</div>
+				<div class="row g-4">
+					<div class="col-md-6 col-xl-4">
+						<!-- Category item START -->
+						<div class="card border h-100">
+							<!-- Card header -->
+							<div class="card-header border-bottom p-3">
+								<div class="d-flex align-items-center">
+									<div class="icon-lg shadow bg-body rounded-circle">⛰️</div>
+									<h3 class="mb-0 ms-3">课程1</h3>
+								</div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body p-3">
+								<p>Departure defective arranging rapturous did believe him all had supported.</p>
+
+								<!-- Followers and Post -->
+								<div class="d-flex justify-content-between">
+									<!-- Total post -->
+									<div>
+										<h5 class="mb-0">846</h5>
+										<h6 class="mb-0 fw-light">Total posts</h6>
+									</div>
+
+									<!-- Avatar group -->
+									<ul class="avatar-group mb-0">
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/02.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/03.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<div class="avatar-img rounded-circle bg-primary"><i
+													class="fas fa-plus text-white position-absolute top-50 start-50 translate-middle"></i>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- Card body END -->
+
+							<!-- Card footer -->
+							<div class="card-footer border-top text-center p-3">
+								<a href="#" class="btn btn-primary-soft w-100 mb-0">View posts</a>
+							</div>
+						</div>
+						<!-- Category item END -->
+					</div>
+
+					<div class="col-md-6 col-xl-4">
+						<!-- Category item START -->
+						<div class="card border h-100">
+							<!-- Card header -->
+							<div class="card-header border-bottom p-3">
+								<div class="d-flex align-items-center">
+									<div class="icon-lg shadow bg-body rounded-circle">🩸</div>
+									<h3 class="mb-0 ms-3">Lifestyle</h3>
+								</div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body p-3">
+								<p>Yet ﻿no jokes worse her why. Bed one supposing breakfast day fulfilled.</p>
+
+								<!-- Followers and Post -->
+								<div class="d-flex justify-content-between">
+									<!-- Total post -->
+									<div>
+										<h5 class="mb-0">486</h5>
+										<h6 class="mb-0 fw-light">Total posts</h6>
+									</div>
+
+									<!-- Avatar group -->
+									<ul class="avatar-group mb-0">
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/04.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/05.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/06.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<div class="avatar-img rounded-circle bg-primary"><i
+													class="fas fa-plus text-white position-absolute top-50 start-50 translate-middle"></i>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- Card body END -->
+
+							<!-- Card footer -->
+							<div class="card-footer border-top text-center p-3">
+								<a href="#" class="btn btn-primary-soft w-100 mb-0">View posts</a>
+							</div>
+						</div>
+						<!-- Category item END -->
+					</div>
+
+					<div class="col-md-6 col-xl-4">
+						<!-- Category item START -->
+						<div class="card border h-100">
+							<!-- Card header -->
+							<div class="card-header border-bottom p-3">
+								<div class="d-flex align-items-center">
+									<div class="icon-lg shadow bg-body rounded-circle">🤝</div>
+									<h3 class="mb-0 ms-3">Business</h3>
+								</div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body p-3">
+								<p> Warrant private blushes removed an in equally totally if delivered dejection.</p>
+
+								<!-- Followers and Post -->
+								<div class="d-flex justify-content-between">
+									<!-- Total post -->
+									<div>
+										<h5 class="mb-0">657</h5>
+										<h6 class="mb-0 fw-light">Total posts</h6>
+									</div>
+
+									<!-- Avatar group -->
+									<ul class="avatar-group mb-0">
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/07.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/08.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<div class="avatar-img rounded-circle bg-primary"><i
+													class="fas fa-plus text-white position-absolute top-50 start-50 translate-middle"></i>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- Card body END -->
+
+							<!-- Card footer -->
+							<div class="card-footer border-top text-center p-3">
+								<a href="#" class="btn btn-primary-soft w-100 mb-0">View posts</a>
+							</div>
+						</div>
+						<!-- Category item END -->
+					</div>
+
+					<div class="col-md-6 col-xl-4">
+						<!-- Category item START -->
+						<div class="card border h-100">
+							<!-- Card header -->
+							<div class="card-header border-bottom p-3">
+								<div class="d-flex align-items-center">
+									<div class="icon-lg shadow bg-body rounded-circle">🤖</div>
+									<h3 class="mb-0 ms-3">Technology</h3>
+								</div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body p-3">
+								<p>Meant balls it if up doubt small purse. Required his you put the outlived answered
+									position.</p>
+
+								<!-- Followers and Post -->
+								<div class="d-flex justify-content-between">
+									<!-- Total post -->
+									<div>
+										<h5 class="mb-0">846</h5>
+										<h6 class="mb-0 fw-light">Total posts</h6>
+									</div>
+
+									<!-- Avatar group -->
+									<ul class="avatar-group mb-0">
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/11.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/12.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<div class="avatar-img rounded-circle bg-primary"><i
+													class="fas fa-plus text-white position-absolute top-50 start-50 translate-middle"></i>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- Card body END -->
+
+							<!-- Card footer -->
+							<div class="card-footer border-top text-center p-3">
+								<a href="#" class="btn btn-primary-soft w-100 mb-0">View posts</a>
+							</div>
+						</div>
+						<!-- Category item END -->
+					</div>
+
+					<div class="col-md-6 col-xl-4">
+						<!-- Category item START -->
+						<div class="card border h-100">
+							<!-- Card header -->
+							<div class="card-header border-bottom p-3">
+								<div class="d-flex align-items-center">
+									<div class="icon-lg shadow bg-body rounded-circle">🔥</div>
+									<h3 class="mb-0 ms-3">Marketing</h3>
+								</div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body p-3">
+								<p>Saw met applauded favorite deficient engrossed concealed and her.</p>
+
+								<!-- Followers and Post -->
+								<div class="d-flex justify-content-between">
+									<!-- Total post -->
+									<div>
+										<h5 class="mb-0">486</h5>
+										<h6 class="mb-0 fw-light">Total posts</h6>
+									</div>
+
+									<!-- Avatar group -->
+									<ul class="avatar-group mb-0">
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/05.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/08.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<div class="avatar-img rounded-circle bg-primary"><i
+													class="fas fa-plus text-white position-absolute top-50 start-50 translate-middle"></i>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- Card body END -->
+
+							<!-- Card footer -->
+							<div class="card-footer border-top text-center p-3">
+								<a href="#" class="btn btn-primary-soft w-100 mb-0">View posts</a>
+							</div>
+						</div>
+						<!-- Category item END -->
+					</div>
+
+					<div class="col-md-6 col-xl-4">
+						<!-- Category item START -->
+						<div class="card border h-100">
+							<!-- Card header -->
+							<div class="card-header border-bottom p-3">
+								<div class="d-flex align-items-center">
+									<div class="icon-lg shadow bg-body rounded-circle">📷</div>
+									<h3 class="mb-0 ms-3">Photography</h3>
+								</div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body p-3">
+								<p>Existence certainly explained how improving the household pretended.</p>
+
+								<!-- Followers and Post -->
+								<div class="d-flex justify-content-between">
+									<!-- Total post -->
+									<div>
+										<h5 class="mb-0">657</h5>
+										<h6 class="mb-0 fw-light">Total posts</h6>
+									</div>
+
+									<!-- Avatar group -->
+									<ul class="avatar-group mb-0">
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/02.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/12.jpg"
+												alt="avatar">
+										</li>
+										<li class="avatar avatar-xs">
+											<div class="avatar-img rounded-circle bg-primary"><i
+													class="fas fa-plus text-white position-absolute top-50 start-50 translate-middle"></i>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- Card body END -->
+
+							<!-- Card footer -->
+							<div class="card-footer border-top text-center p-3">
+								<a href="#" class="btn btn-primary-soft w-100 mb-0">View posts</a>
+							</div>
+						</div>
+						<!-- Category item END -->
+					</div>
+
 					<div class="col-12">
 						<!-- Blog list table START -->
 						<div class="card border bg-transparent rounded-3">
 							<!-- Card header START -->
 							<div class="card-header bg-transparent border-bottom p-3">
-								<div class="d-sm-flex justify-content-between align-items-center">
-									<h5 class="mb-2 mb-sm-0">观看记录 <span
+								<div class="d-sm-flex justify-content-sm-between align-items-center">
+									<h5 class="mb-2 mb-sm-0">Technology <span
 											class="badge bg-primary bg-opacity-10 text-primary">105</span></h5>
-									<!-- <a href="#" class="btn btn-sm btn-primary mb-0">Add New</a> -->
+									<a href="#" class="btn btn-sm btn-primary mb-0"><i
+											class="fas fa-plus me-2"></i>Create a post</a>
 								</div>
 							</div>
 							<!-- Card header END -->
 
 							<!-- Card body START -->
-							<div class="card-body">
+							<div class="card-body p-3">
 
 								<!-- Search and select START -->
 								<div class="row g-3 align-items-center justify-content-between mb-3">
@@ -415,138 +671,27 @@ Main contain START -->
 
 								<!-- Blog list table START -->
 								<div class="table-responsive border-0">
-									<table class="table align-middle p-4 mb-0 table-hover table-shrink">
+									<table class="table table-dark-gray align-middle p-4 mb-0 table-hover table-shrink">
 										<!-- Table head -->
-										<thead class="table-dark">
+										<thead>
 											<tr>
-												<th scope="col" class="border-0 rounded-start">视频名称</th>
-												<th scope="col" class="border-0">所属课程</th>
-												<th scope="col" class="border-0">观看日期</th>
-												<th scope="col" class="border-0">分类</th>
-												<th scope="col" class="border-0">状态</th>
-												<th scope="col" class="border-0 rounded-end">操作</th>
+												<th scope="col" class="border-0 rounded-start">Post Name</th>
+												<th scope="col" class="border-0">Author Name</th>
+												<th scope="col" class="border-0">Published Date</th>
+												<th scope="col" class="border-0">Views</th>
+												<th scope="col" class="border-0">Status</th>
+												<th scope="col" class="border-0 rounded-end">Action</th>
 											</tr>
 										</thead>
 
 										<!-- Table body START -->
-										<tbody class="border-top-0">
+										<tbody>
 											<!-- Table item -->
 											<tr>
 												<!-- Table data -->
 												<td>
-													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">二十大精神解读</a>
-													</h6>
-												</td>
-												<!-- Table data -->
-												<td>
-													<h6 class="mb-0"><a href="#">二十大专题</a></h6>
-												</td>
-												<!-- Table data -->
-												<td>Jan 22, 2022</td>
-												<!-- Table data -->
-												<td>
-													<a href="#" class="badge text-bg-warning mb-2"><i
-															class="fas fa-circle me-2 small fw-bold"></i>二十大</a>
-												</td>
-												<!-- Table data -->
-												<td>
-													<span
-														class="badge bg-success bg-opacity-10 text-success mb-2">已学完</span>
-												</td>
-												<!-- Table data -->
-												<td>
-													<div class="d-flex gap-2">
-														<a href="#" class="btn btn-light btn-round mb-0"
-															data-bs-toggle="tooltip" data-bs-placement="top"
-															title="Delete"><i class="bi bi-trash"></i></a>
-														<a href="dashboard-post-edit.html"
-															class="btn btn-light btn-round mb-0"
-															data-bs-toggle="tooltip" data-bs-placement="top"
-															title="Edit"><i class="bi bi-pencil-square"></i></a>
-													</div>
-												</td>
-											</tr>
-
-											<!-- Table item -->
-											<tr>
-												<!-- Table data -->
-												<td>
-													<h6 class="course-title mt-2 mt-md-0 mb-0"><a
-															href="#">习近平新时代中国特色社会主义思想</a></h6>
-												</td>
-												<!-- Table data -->
-												<td>
-													<h6 class="mb-0"><a href="#">新时代理论课</a></h6>
-												</td>
-												<!-- Table data -->
-												<td>Jan 19, 2022</td>
-												<!-- Table data -->
-												<td>
-													<a href="#" class="badge text-bg-info mb-2"><i
-															class="fas fa-circle me-2 small fw-bold"></i>新时代</a>
-												</td>
-												<!-- Table data -->
-												<td>
-													<span
-														class="badge bg-warning bg-opacity-15 text-warning mb-2">学习中</span>
-												</td>
-												<!-- Table data -->
-												<td>
-													<div class="d-flex gap-2">
-														<a href="#" class="btn btn-light btn-round mb-0"
-															data-bs-toggle="tooltip" data-bs-placement="top"
-															title="Delete"><i class="bi bi-trash"></i></a>
-														<a href="dashboard-post-edit.html"
-															class="btn btn-light btn-round mb-0"
-															data-bs-toggle="tooltip" data-bs-placement="top"
-															title="Edit"><i class="bi bi-pencil-square"></i></a>
-													</div>
-												</td>
-											</tr>
-
-											<!-- Table item -->
-											<tr>
-												<!-- Table data -->
-												<td>
-													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">四史专题课程</a>
-													</h6>
-												</td>
-												<!-- Table data -->
-												<td>
-													<h6 class="mb-0"><a href="#">专题课程</a></h6>
-												</td>
-												<!-- Table data -->
-												<td>Nov 11, 2022</td>
-												<!-- Table data -->
-												<td>
-													<a href="#" class="badge text-bg-danger mb-2"><i
-															class="fas fa-circle me-2 small fw-bold"></i>党史</a>
-												</td>
-												<!-- Table data -->
-												<td>
-													<span
-														class="badge bg-success bg-opacity-10 text-success mb-2">学习中</span>
-												</td>
-												<!-- Table data -->
-												<td>
-													<div class="d-flex gap-2">
-														<a href="#" class="btn btn-light btn-round mb-0"
-															data-bs-toggle="tooltip" data-bs-placement="top"
-															title="Delete"><i class="bi bi-trash"></i></a>
-														<a href="dashboard-post-edit.html"
-															class="btn btn-light btn-round mb-0"
-															data-bs-toggle="tooltip" data-bs-placement="top"
-															title="Edit"><i class="bi bi-pencil-square"></i></a>
-													</div>
-												</td>
-											</tr>
-
-											<!-- Table item -->
-											<tr>
-												<!-- Table data -->
-												<td>
-													<h6 class="course-title mt-2 mt-md-0 mb-0"><a
-															href="#">党的建设和党风廉政建设</a></h6>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">12 worst
+															types of business accounts you follow on Twitter</a></h6>
 												</td>
 												<!-- Table data -->
 												<td>
@@ -555,84 +700,7 @@ Main contain START -->
 												<!-- Table data -->
 												<td>Jan 22, 2022</td>
 												<!-- Table data -->
-												<td>
-													<a href="#" class="badge text-bg-success mb-2"><i
-															class="fas fa-circle me-2 small fw-bold"></i>专题课程</a>
-												</td>
-												<!-- Table data -->
-												<td>
-													<span
-														class="badge bg-success bg-opacity-10 text-success mb-2">已完成</span>
-												</td>
-												<!-- Table data -->
-												<td>
-													<div class="d-flex gap-2">
-														<a href="#" class="btn btn-light btn-round mb-0"
-															data-bs-toggle="tooltip" data-bs-placement="top"
-															title="Delete"><i class="bi bi-trash"></i></a>
-														<a href="dashboard-post-edit.html"
-															class="btn btn-light btn-round mb-0"
-															data-bs-toggle="tooltip" data-bs-placement="top"
-															title="Edit"><i class="bi bi-pencil-square"></i></a>
-													</div>
-												</td>
-											</tr>
-
-											<!-- Table item -->
-											<tr>
-												<!-- Table data -->
-												<td>
-													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">精品微课第一讲</a>
-													</h6>
-												</td>
-												<!-- Table data -->
-												<td>
-													<h6 class="mb-0"><a href="#">精品微课</a></h6>
-												</td>
-												<!-- Table data -->
-												<td>Dec 06, 2022</td>
-												<!-- Table data -->
-												<td>
-													<a href="#" class="badge text-bg-primary mb-2"><i
-															class="fas fa-circle me-2 small fw-bold"></i>微课</a>
-												</td>
-												<!-- Table data -->
-												<td>
-													<span
-														class="badge bg-danger bg-opacity-10 text-danger mb-2">已完成</span>
-												</td>
-												<!-- Table data -->
-												<td>
-													<div class="d-flex gap-2">
-														<a href="#" class="btn btn-light btn-round mb-0"
-															data-bs-toggle="tooltip" data-bs-placement="top"
-															title="Delete"><i class="bi bi-trash"></i></a>
-														<a href="dashboard-post-edit.html"
-															class="btn btn-light btn-round mb-0"
-															data-bs-toggle="tooltip" data-bs-placement="top"
-															title="Edit"><i class="bi bi-pencil-square"></i></a>
-													</div>
-												</td>
-											</tr>
-
-											<!-- Table item -->
-											<tr>
-												<!-- Table data -->
-												<td>
-													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">法律法规教育</a>
-													</h6>
-												</td>
-												<!-- Table data -->
-												<td>
-													<h6 class="mb-0"><a href="#">法律法规教育</a></h6>
-												</td>
-												<!-- Table data -->
-												<td>Feb 14, 2022</td>
-												<!-- Table data -->
-												<td>
-													<a href="#" class="badge text-bg-danger mb-2"><i
-															class="fas fa-circle me-2 small fw-bold"></i>已学完</a>
-												</td>
+												<td>2,546</td>
 												<!-- Table data -->
 												<td>
 													<span
@@ -644,8 +712,172 @@ Main contain START -->
 														<a href="#" class="btn btn-light btn-round mb-0"
 															data-bs-toggle="tooltip" data-bs-placement="top"
 															title="Delete"><i class="bi bi-trash"></i></a>
-														<a href="dashboard-post-edit.html"
-															class="btn btn-light btn-round mb-0"
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">Dirty little
+															secrets about the business industry</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Dennis Barrett</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Jan 19, 2022</td>
+												<!-- Table data -->
+												<td>1,456</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-warning bg-opacity-15 text-warning mb-2">Draft</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">7 common
+															mistakes everyone makes while traveling</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Billy Vasquez</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Nov 11, 2022</td>
+												<!-- Table data -->
+												<td>3,456</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-success bg-opacity-10 text-success mb-2">Live</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">5 investment
+															doubts you should clarify</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Lori Stevens</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Jan 22, 2022</td>
+												<!-- Table data -->
+												<td>5,456</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-success bg-opacity-10 text-success mb-2">Live</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">Bad habits
+															that people in the industry need to quit</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Larry Lawson</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Oct 21, 2022</td>
+												<!-- Table data -->
+												<td>2,845</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-warning bg-opacity-10 text-warning mb-2">Draft</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">Around the
+															web: 20 fabulous infographics about business</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Carolyn Ortiz</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Feb 10, 2022</td>
+												<!-- Table data -->
+												<td>1,456</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-success bg-opacity-10 text-success mb-2">Live</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="#" class="btn btn-light btn-round mb-0"
 															data-bs-toggle="tooltip" data-bs-placement="top"
 															title="Edit"><i class="bi bi-pencil-square"></i></a>
 													</div>
@@ -661,19 +893,20 @@ Main contain START -->
 								<!-- Pagination START -->
 								<div class="d-sm-flex justify-content-sm-between align-items-sm-center mt-4 mt-sm-3">
 									<!-- Content -->
-									<p class="mb-sm-0 text-center text-sm-start"> </p>
+									<p class="mb-sm-0 text-center text-sm-start">Showing 1 to 8 of 20 entries</p>
 									<!-- Pagination -->
 									<nav class="mb-sm-0 d-flex justify-content-center" aria-label="navigation">
 										<ul class="pagination pagination-sm pagination-bordered mb-0">
 											<li class="page-item disabled">
-												<a class="page-link" href="#" tabindex="-1" aria-disabled="true">上一页</a>
+												<a class="page-link" href="#" tabindex="-1"
+													aria-disabled="true">Prev</a>
 											</li>
 											<li class="page-item"><a class="page-link" href="#">1</a></li>
 											<li class="page-item active"><a class="page-link" href="#">2</a></li>
 											<li class="page-item disabled"><a class="page-link" href="#">..</a></li>
 											<li class="page-item"><a class="page-link" href="#">15</a></li>
 											<li class="page-item">
-												<a class="page-link" href="#">下一页</a>
+												<a class="page-link" href="#">Next</a>
 											</li>
 										</ul>
 									</nav>
@@ -683,7 +916,6 @@ Main contain START -->
 						</div>
 						<!-- Blog list table END -->
 					</div>
-					
 				</div>
 			</div>
 		</section>
@@ -695,19 +927,20 @@ Main contain END -->
 
 	<!-- =======================
 Footer START -->
+
 	<footer class="mb-3">
 		<div class="container">
 			<div class="card card-body bg-light">
 				<div class="row align-items-center justify-content-between">
 					<div class="col-lg-6">
 						<!-- Copyright -->
-						<div class="text-center text-md-start text-primary-hover text-muted">©<span id="copyright_year">2022</span>
-							<a href="https://www.webestica.com/" class="text-reset btn-link" target="_blank" id="copyright_host">Webestica</a>. All rights reserved
+						<div class="text-center text-lg-start">©2022 <a href="https://www.webestica.com/"
+								class="text-reset btn-link" target="_blank">Webestica</a>. All rights reserved
 						</div>
 					</div>
 					<div class="col-lg-6 d-sm-flex align-items-center justify-content-center justify-content-lg-end">
 						<!-- Language switcher -->
-						<!-- <div class="dropup me-0 me-sm-3 mt-3 mt-md-0 text-center text-sm-end">
+						<div class="dropup me-0 me-sm-3 mt-3 mt-md-0 text-center text-sm-end">
 							<a class="dropdown-toggle text-body" href="#" role="button" id="languageSwitcher"
 								data-bs-toggle="dropdown" aria-expanded="false">
 								English Edition
@@ -717,18 +950,20 @@ Footer START -->
 								<li><a class="dropdown-item" href="#">German </a></li>
 								<li><a class="dropdown-item" href="#">French</a></li>
 							</ul>
-						</div> -->
+						</div>
 						<!-- Links -->
-						<ul class="nav text-primary-hover text-center text-sm-end justify-content-center justify-content-center mt-3 mt-md-0">
-                            <li class="nav-item"><a class="nav-link" href="#">服务条款</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">隐私政策</a></li>
-                            <li class="nav-item"><a class="nav-link pe-0" href="#">Cookies</a></li>
-                        </ul>
+						<ul
+							class="nav text-center text-sm-end justify-content-center justify-content-center mt-3 mt-md-0">
+							<li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
+							<li class="nav-item"><a class="nav-link pe-0" href="#">Cookies</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
+
 	<!-- =======================
 Footer END -->
 
@@ -747,8 +982,7 @@ JS libraries, plugins and custom scripts -->
 
 	<!-- Template Functions -->
 	<script src="assets/js/functions.js"></script>
-	<script src="assets/js/func-uno.js"></script>
-	
+
 </body>
 
 </html>

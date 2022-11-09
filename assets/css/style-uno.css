@@ -108,3 +108,6 @@ hr,select,input,option,div,h1,h2,h3,h4,h5,h6,h7,a,td,p {
 .table-dark {
     background-color: #F6658E60 !important;
 }
+.page-item .active > a {
+    color: white !important;
+}
