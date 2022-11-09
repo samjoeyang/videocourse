@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>会员中心 - 视频教程网站 - DEMO</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Bootstrap based News, Magazine and Blog Theme">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;500;700&display=swap"
+		rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/apexcharts/css/apexcharts.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/overlay-scrollbar/css/OverlayScrollbars.min.css">
+
+	<!-- Theme CSS -->
+	<link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/style-uno.css">
+
+</head>
+
+<body>
+	<!-- =======================
+Header START -->
+	<header class="navbar-light navbar-sticky header-static border-bottom navbar-dashboard">
+		<!-- Logo Nav START -->
+		<nav class="navbar navbar-expand-xl">
+			<div class="container">
+				<!-- Logo START -->
+				<a class="navbar-brand me-3" href="index.html">
+					<p style="font-size: 18pt; font-weight: 900; color: crimson;">视频教程网站(DEMO)</p>
+					<!-- <img class="navbar-brand-item light-mode-item" src="assets/images/logo.svg" alt="logo">			
+				<img class="navbar-brand-item dark-mode-item" src="assets/images/logo-light.svg" alt="logo">			 -->
+				</a>
+				<!-- Logo END -->
+
+				<!-- Responsive navbar toggler -->
+				<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="text-body h6 d-none d-sm-inline-block">Menu</span>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Main navbar START -->
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav navbar-nav-scroll mx-auto">
+
+						<!-- Nav item 1 Demos -->
+						<li class="nav-item"><a class="nav-link" href="member-center.html"><i
+									class="bi bi-house-door me-1"></i>会员中心</a></li>
+
+						<!-- Nav item 2 Post -->
+						<!-- <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="postMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-pencil me-1"></i>Post</a>
+						<ul class="dropdown-menu" aria-labelledby="postMenu">
+							<li> <a class="dropdown-item" href="dashboard-post-list.html">Post List</a> </li>
+							<li> <a class="dropdown-item" href="dashboard-post-categories.html">Post Categories</a> </li>
+							<li> <a class="dropdown-item" href="dashboard-post-create.html">Create a Post</a> </li>
+							<li> <a class="dropdown-item" href="dashboard-post-edit.html">Edit Post</a> </li>
+						</ul>
+					</li> -->
+
+						<!-- Nav item 3 Pages -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="pagesMenu" data-bs-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false"><i class="bi bi-folder me-1"></i>选课中心</a>
+							<ul class="dropdown-menu" aria-labelledby="pagesMenu">
+								<li> <a class="dropdown-item" href="dashboard-author-list.html">课程列表</a></li>
+								<li class="dropdown-divider"></li>
+								<li> <a class="dropdown-item" href="dashboard-author-single.html">已选课程</a></li>
+								<li> <a class="dropdown-item" href="dashboard-edit-profile.html">已完成课程</a></li>
+								<li> <a class="dropdown-item" href="dashboard-reviews.html">进行中课程</a></li>
+								<!-- <li> <a class="dropdown-item" href="dashboard-settings.html">Settings</a></li>
+							<li> <a class="dropdown-item" href="https://support.webestica.com/" target="_blank"> <i class="text-warning fa-fw bi bi-life-preserver me-2"></i>Support</a></li>
+							<li> <a class="dropdown-item" href="docs/index.html" target="_blank"> <i class="text-danger fa-fw bi bi-card-text me-2"></i>Documentation</a></li>
+							<li class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="https://blogzine.webestica.com/rtl" target="_blank"> <i class="text-info fa-fw bi bi-toggle-off me-2"></i>RTL demo</a></li>
+							<li><a class="dropdown-item" href="https://themes.getbootstrap.com/store/webestica/" target="_blank"> <i class="text-success fa-fw bi bi-cloud-download-fill me-2"></i>Buy blogzine!</a> </li> -->
+							</ul>
+						</li>
+					</ul>
+
+					<!-- Search dropdown START -->
+					<!-- <div class="nav my-3 my-xl-0 px-4 px-lg-1 flex-nowrap align-items-center">
+					<div class="nav-item w-100">
+						<form class="position-relative">
+							<input class="form-control pe-5 bg-transparent" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn bg-transparent border-0 px-2 py-0 position-absolute top-50 end-0 translate-middle-y" type="submit"><i class="fas fa-search fs-6 "></i></button>
+						</form>
+					</div>
+				</div> -->
+					<!-- Search dropdown END -->
+				</div>
+				<!-- Main navbar END -->
+
+				<!-- Nav right START -->
+				<div class="nav flex-nowrap align-items-center">
+
+					<!-- Notification dropdown START -->
+					<div class="nav-item ms-2 ms-md-3 dropdown">
+						<!-- Notification button -->
+						<a class="btn btn-primary-soft btn-round mb-0" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false" data-bs-auto-close="outside">
+							<i class="bi bi-bell fa-fw"></i>
+						</a>
+						<!-- Notification dote -->
+						<span class="notif-badge animation-blink"></span>
+
+						<!-- Notification dropdown menu START -->
+						<div
+							class="dropdown-menu dropdown-animation dropdown-menu-end dropdown-menu-size-md p-0 shadow-lg border-0">
+							<div class="card bg-transparent">
+								<div
+									class="card-header bg-transparent border-bottom p-3 d-flex justify-content-between align-items-center">
+									<h6 class="m-0">Notifications <span
+											class="badge bg-danger bg-opacity-10 text-danger ms-2">2 new</span></h6>
+									<a class="small" href="#">Clear all</a>
+								</div>
+								<div class="card-body p-0">
+									<ul class="list-group list-unstyled list-group-flush">
+										<!-- Notif item -->
+										<li>
+											<a href="#"
+												class="list-group-item-action border-0 border-bottom d-flex p-3">
+												<div class="me-3">
+													<div class="avatar avatar-sm">
+														<img class="avatar-img rounded-circle"
+															src="assets/images/avatar/08.jpg" alt="avatar">
+													</div>
+												</div>
+												<div>
+													<h6 class="mb-1">12 new members joined</h6>
+													<span class="small"> <i class="bi bi-clock"></i> 3 min ago</span>
+												</div>
+											</a>
+										</li>
+
+										<!-- Notif item -->
+										<li>
+											<a href="#"
+												class="list-group-item-action border-0 border-bottom d-flex p-3">
+												<div class="me-3">
+													<div class="avatar avatar-sm">
+														<img class="avatar-img rounded-circle"
+															src="assets/images/avatar/02.jpg" alt="avatar">
+													</div>
+												</div>
+												<div>
+													<h6 class="mb-1">Larry Lawson deleted account</h6>
+													<span class="small"> <i class="bi bi-clock"></i> 6 min ago</span>
+												</div>
+											</a>
+										</li>
+
+										<!-- Notif item -->
+										<li>
+											<a href="#"
+												class="list-group-item-action border-0 border-bottom d-flex p-3">
+												<div class="me-3">
+													<div class="avatar avatar-sm">
+														<img class="avatar-img rounded-circle"
+															src="assets/images/avatar/05.jpg" alt="avatar">
+													</div>
+												</div>
+												<div>
+													<h6 class="mb-1">Byan commented on your post</h6>
+													<span class="small"> <i class="bi bi-clock"></i> 10 min ago</span>
+												</div>
+											</a>
+										</li>
+
+										<!-- Notif item -->
+										<li>
+											<a href="#"
+												class="list-group-item-action border-0 border-bottom d-flex p-3">
+												<div class="me-3">
+													<div class="avatar avatar-sm">
+														<img class="avatar-img rounded-circle"
+															src="assets/images/avatar/03.jpg" alt="avatar">
+													</div>
+												</div>
+												<div>
+													<h6 class="mb-1">Settings updated</h6>
+													<span class="small"> <i class="bi bi-clock"></i> Yesterday</span>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<!-- Button -->
+								<div class="card-footer bg-transparent border-0 py-3 text-center position-relative">
+									<a href="#" class="stretched-link">See all incoming activity</a>
+								</div>
+							</div>
+						</div>
+						<!-- Notification dropdown menu END -->
+					</div>
+					<!-- Notification dropdown END -->
+
+					<!-- Profile dropdown START -->
+					<div class="nav-item ms-2 ms-md-3 dropdown">
+						<!-- Avatar -->
+						<a class="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button"
+							data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							<img class="avatar-img rounded-circle" src="assets/images/avatar/03.jpg" alt="avatar">
+						</a>
+
+						<!-- Profile dropdown START -->
+						<ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3"
+							aria-labelledby="profileDropdown">
+							<!-- Profile info -->
+							<li class="px-3">
+								<div class="d-flex align-items-center">
+									<!-- Avatar -->
+									<div class="avatar me-3">
+										<img class="avatar-img rounded-circle shadow" src="assets/images/avatar/03.jpg"
+											alt="avatar">
+									</div>
+									<div>
+										<a class="h6 mt-2 mt-sm-0" href="#">用户的姓名</a>
+										<!-- <p class="small m-0">example@example.com</p> -->
+									</div>
+								</div>
+								<hr>
+							</li>
+							<!-- Links -->
+							<li><a class="dropdown-item" href="#"><i class="bi bi-person fa-fw me-2"></i>个人资料</a></li>
+							<!-- <li><a class="dropdown-item" href="#"><i class="bi bi-gear fa-fw me-2"></i>Account Settings</a></li>
+						<li><a class="dropdown-item" href="#"><i class="bi bi-info-circle fa-fw me-2"></i>Help</a></li> -->
+							<li><a class="dropdown-item" href="#"><i class="bi bi-power fa-fw me-2"></i>退出</a></li>
+							<li class="dropdown-divider mb-3"></li>
+							<li>
+								<div class="dropdown-item">
+									<div class="modeswitch m-0" id="darkModeSwitch">
+										<div class="switch"></div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<!-- Profile dropdown END -->
+					</div>
+					<!-- Profile dropdown END -->
+
+					<!-- Nav right END -->
+				</div>
+			</div>
+		</nav>
+		<!-- Logo Nav END -->
+	</header>
+	<!-- =======================
+Header END -->
+
+	<!-- **************** MAIN CONTENT START **************** -->
+	<main>
+
+		<!-- =======================
+Main contain START -->
+		<section class="py-4">
+			<div class="container">
+				<div class="row g-4">
+
+					<div class="col-12">
+						<!-- Counter START -->
+						<div class="row g-4">
+
+							<!-- Counter item -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="card card-body border p-3">
+									<div class="d-flex align-items-center">
+										<!-- Icon -->
+										<div class="icon-xl fs-1 bg-success bg-opacity-10 rounded-3 text-success">
+											<!-- <i class="bi bi-people-fill"></i> -->
+											<svg t="1667972088412" class="icon" viewBox="0 0 1024 1024" version="1.1"
+												xmlns="http://www.w3.org/2000/svg" p-id="4992" width="48" height="48">
+												<path
+													d="M532.7 884.6h-36.2c-3.8 0-7.6-1.1-10.8-3.2l-35.5-22.8c-88.3-56.7-256.5-55.8-384.4-36-13.4 2.1-26.8-2.2-36.6-11.6-9.9-9.6-14.7-22.9-13-36.6l68.1-567c2.1-17.7 17.1-31 34.9-31h38.3c11 0 20 9 20 20s-9 20-20 20h-34.1L55.9 779.1c-0.2 1.6 0.6 2.6 1.1 3.1 0.8 0.7 1.7 1 2.7 0.9 72.4-11.2 148.1-15.2 213.1-11.3 85 5.1 152 23 199 53.2l30.5 19.6h24.5l30.5-19.6c47.2-30.3 113.9-48.6 198.2-54.4 65.6-4.5 141-1 212.4 9.9 0.4 0.1 1.5 0.2 2.6-0.9 0.5-0.5 1.3-1.5 1.1-3.1l-66-560.1h-34c-11 0-20-9-20-20s9-20 20-20h38.3c17.8 0 32.9 13.4 35 31.1l66.5 564.4c1.6 13.7-3.1 27-13 36.6-9.8 9.4-23.1 13.7-36.5 11.7-68.6-10.4-140.9-13.8-203.7-9.5-76.4 5.3-138.4 21.9-179.3 48.2l-35.5 22.8c-3.1 1.8-6.9 2.9-10.7 2.9z"
+													fill="#F6658E" p-id="4993"></path>
+												<path
+													d="M486.4 694.7c-4.1 0-8.1-1.2-11.6-3.7l-27.7-19.6c-39.2-27.8-85.9-41.3-142.6-41.3-27.7 0-58.8 3.2-95 9.8-2.4 0.4-4.8 0.6-7.2 0.6-11 0-21.5-4.6-28.7-12.6-7.1-7.8-10.4-17.8-9.5-28.2L206 145.4c0.8-8.8 7.2-16 15.9-17.8 41.8-8.6 76.4-15.2 109.5-15.2 49.2 0 90.8 14.5 138.9 48.6l27.7 19.6c5.3 3.7 8.4 9.8 8.4 16.3v477.7c0 7.5-4.2 14.3-10.8 17.8-2.9 1.5-6 2.3-9.2 2.3zM304.6 590.1c63.5 0 116.5 15 161.9 46V207.3l-19.3-13.6c-41.4-29.3-74.9-41.3-115.8-41.3-25.7 0-53.8 4.8-86.9 11.4l-40.2 436.3c37.8-6.7 70.6-10 100.3-10z"
+													fill="#F6658E" p-id="4994"></path>
+												<path
+													d="M514 694.7c-6.3 0-12.4-2.9-16.3-8.4-6.4-9-4.3-21.5 4.8-27.9l27.7-19.6c85.9-60.9 187.1-52.8 266.1-38.6L756 163.8c-84.4-17-131.6-20.6-202.7 29.8l-27.7 19.6c-9 6.4-21.5 4.3-27.9-4.8-6.4-9-4.3-21.5 4.8-27.9l27.7-19.6c88.3-62.6 148.9-54 248.4-33.4 8.6 1.8 15.1 9 15.9 17.8l41.9 454.4c1.1 11.5-3.3 22.7-11.9 30.6-8.9 8.2-21.4 11.7-33.5 9.5-76-13.8-163.7-20.9-237.7 31.5L525.6 691c-3.5 2.5-7.6 3.7-11.6 3.7z"
+													fill="#F6658E" p-id="4995"></path>
+												<path
+													d="M562.5 363c-6.3 0-12.4-2.9-16.3-8.4-6.4-9-4.3-21.5 4.8-27.9l24.7-17.5c55.1-39.1 99-32.2 145.5-24.9 6.4 1 13 2 19.6 3 10.9 1.5 18.6 11.6 17.1 22.5s-11.6 18.6-22.5 17.1c-7-1-13.8-2-20.4-3.1-43.1-6.8-74.3-11.7-116.2 18L574 359.3c-3.5 2.5-7.5 3.7-11.5 3.7zM562.5 472.1c-6.3 0-12.4-2.9-16.3-8.4-6.4-9-4.3-21.5 4.8-27.9l24.7-17.5c54.9-38.9 108-30.5 154.8-23.1 6.8 1.1 13.8 2.2 20.6 3.1 10.9 1.5 18.6 11.6 17.1 22.5s-11.6 18.6-22.5 17.1c-7.2-1-14.4-2.1-21.4-3.2-44.9-7.1-83.7-13.3-125.4 16.3L574 468.4c-3.5 2.5-7.5 3.7-11.5 3.7zM436.3 362.5c-4 0-8-1.2-11.5-3.7l-24.2-17.2c-41-29.1-71.6-24.3-113.9-17.6-6.4 1-13.1 2.1-20 3-10.9 1.5-21-6.1-22.5-17.1-1.5-10.9 6.1-21 17.1-22.5 6.5-0.9 13-1.9 19.3-2.9 45.7-7.2 88.9-14 143.2 24.5l24.2 17.2c9 6.4 11.1 18.9 4.8 27.9-4 5.5-10.2 8.4-16.5 8.4zM436.3 469.8c-4 0-8-1.2-11.5-3.7l-24.2-17.2c-41.6-29.5-80.9-23.4-126.5-16.4-6.2 1-12.6 1.9-18.9 2.8-10.9 1.5-21-6.1-22.5-17.1-1.5-10.9 6.1-21 17.1-22.5 6.1-0.8 12.3-1.8 18.3-2.7 47.3-7.3 100.9-15.5 155.7 23.3l24.2 17.2c9 6.4 11.1 18.9 4.8 27.9-4 5.4-10.2 8.4-16.5 8.4z"
+													fill="#F6658E" p-id="4996"></path>
+											</svg>
+										</div>
+										<!-- Content -->
+										<div class="ms-3">
+											<h3>134.6 学时</h3>
+											<h6 class="mb-0">已完成课时长</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Counter item -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="card card-body border p-3">
+									<div class="d-flex align-items-center">
+										<!-- Icon -->
+										<div class="icon-xl fs-1 bg-primary bg-opacity-10 rounded-3 text-primary">
+											<i class="bi bi-file-earmark-text-fill"></i>
+										</div>
+										<!-- Content -->
+										<div class="ms-3">
+											<h3>12</h3>
+											<h6 class="mb-0">已选课程数量</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Counter item -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="card card-body border p-3">
+									<div class="d-flex align-items-center">
+										<!-- Icon -->
+										<div class="icon-xl fs-1 bg-danger bg-opacity-10 rounded-3 text-danger">
+											<i class="bi bi-suit-heart-fill"></i>
+										</div>
+										<!-- Content -->
+										<div class="ms-3">
+											<h3>124 段</h3>
+											<h6 class="mb-0">已学完视频数量</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Counter item -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="card card-body border p-3">
+									<div class="d-flex align-items-center">
+										<!-- Icon -->
+										<div class="icon-xl fs-1 bg-info bg-opacity-10 rounded-3 text-info">
+											<!-- <i class="bi bi-bar-chart-line-fill"></i> -->
+											<svg t="1667972394829" class="icon" viewBox="0 0 1024 1024" version="1.1"
+												xmlns="http://www.w3.org/2000/svg" p-id="6114" width="48" height="48">
+												<path
+													d="M977.709589 946.849315h-28.054794V234.257534c0-19.638356-15.430137-35.068493-35.068494-35.068493H737.841096c-19.638356 0-35.068493 15.430137-35.068493 35.068493v712.591781h-63.123288V51.90137c0-19.638356-15.430137-35.068493-35.068493-35.068493H427.835616c-19.638356 0-35.068493 15.430137-35.068493 35.068493v894.947945h-70.136986V396.975342c0-19.638356-15.430137-35.068493-35.068493-35.068493H110.816438c-19.638356 0-35.068493 15.430137-35.068493 35.068493v549.873973H54.706849c-19.638356 0-35.068493 15.430137-35.068493 35.068493s15.430137 35.068493 35.068493 35.068493h924.40548c19.638356 0 35.068493-15.430137 35.068493-35.068493s-16.832877-35.068493-36.471233-35.068493z m-831.824657 0V432.043836H252.493151v514.805479h-106.608219z m317.019178 0V86.969863h106.608219v859.879452H462.90411z m310.005479 0V269.326027h106.608219v677.523288h-106.608219z"
+													p-id="6115" fill="#F6658E"></path>
+											</svg>
+										</div>
+										<!-- Content -->
+										<div class="ms-3">
+											<h3>35 分钟</h3>
+											<h6 class="mb-0">平均观看时长</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<!-- Counter END -->
+					</div>
+					<div class="col-12">
+						<!-- Blog list table START -->
+						<div class="card border bg-transparent rounded-3">
+							<!-- Card header START -->
+							<div class="card-header bg-transparent border-bottom p-3">
+								<div class="d-sm-flex justify-content-between align-items-center">
+									<h5 class="mb-2 mb-sm-0">观看记录 <span
+											class="badge bg-primary bg-opacity-10 text-primary">105</span></h5>
+									<!-- <a href="#" class="btn btn-sm btn-primary mb-0">Add New</a> -->
+								</div>
+							</div>
+							<!-- Card header END -->
+
+							<!-- Card body START -->
+							<div class="card-body">
+
+								<!-- Search and select START -->
+								<div class="row g-3 align-items-center justify-content-between mb-3">
+									<!-- Search -->
+									<div class="col-md-8">
+										<form class="rounded position-relative">
+											<input class="form-control pe-5 bg-transparent" type="search"
+												placeholder="Search" aria-label="Search">
+											<button
+												class="btn bg-transparent border-0 px-2 py-0 position-absolute top-50 end-0 translate-middle-y"
+												type="submit"><i class="fas fa-search fs-6 "></i></button>
+										</form>
+									</div>
+
+									<!-- Select option -->
+									<div class="col-md-3">
+										<!-- Short by filter -->
+										<form>
+											<select class="form-select z-index-9 bg-transparent"
+												aria-label=".form-select-sm">
+												<option value="">Sort by</option>
+												<option>Free</option>
+												<option>Newest</option>
+												<option>Oldest</option>
+											</select>
+										</form>
+									</div>
+								</div>
+								<!-- Search and select END -->
+
+								<!-- Blog list table START -->
+								<div class="table-responsive border-0">
+									<table class="table align-middle p-4 mb-0 table-hover table-shrink">
+										<!-- Table head -->
+										<thead class="table-dark">
+											<tr>
+												<th scope="col" class="border-0 rounded-start">Blog Name</th>
+												<th scope="col" class="border-0">Author Name</th>
+												<th scope="col" class="border-0">Published Date</th>
+												<th scope="col" class="border-0">Categories</th>
+												<th scope="col" class="border-0">Status</th>
+												<th scope="col" class="border-0 rounded-end">Action</th>
+											</tr>
+										</thead>
+
+										<!-- Table body START -->
+										<tbody class="border-top-0">
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">12 worst
+															types of business accounts you follow on Twitter</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Lori Stevens</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Jan 22, 2022</td>
+												<!-- Table data -->
+												<td>
+													<a href="#" class="badge text-bg-warning mb-2"><i
+															class="fas fa-circle me-2 small fw-bold"></i>Technology</a>
+												</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-success bg-opacity-10 text-success mb-2">Live</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="dashboard-post-edit.html"
+															class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">Dirty little
+															secrets about the business industry</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Dennis Barrett</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Jan 19, 2022</td>
+												<!-- Table data -->
+												<td>
+													<a href="#" class="badge text-bg-info mb-2"><i
+															class="fas fa-circle me-2 small fw-bold"></i>Marketing</a>
+												</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-warning bg-opacity-15 text-warning mb-2">Draft</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="dashboard-post-edit.html"
+															class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">7 common
+															mistakes everyone makes while traveling</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Billy Vasquez</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Nov 11, 2022</td>
+												<!-- Table data -->
+												<td>
+													<a href="#" class="badge text-bg-danger mb-2"><i
+															class="fas fa-circle me-2 small fw-bold"></i>Photography</a>
+												</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-success bg-opacity-10 text-success mb-2">Live</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="dashboard-post-edit.html"
+															class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">5 investment
+															doubts you should clarify</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Lori Stevens</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Jan 22, 2022</td>
+												<!-- Table data -->
+												<td>
+													<a href="#" class="badge text-bg-success mb-2"><i
+															class="fas fa-circle me-2 small fw-bold"></i>Gadgets</a>
+												</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-success bg-opacity-10 text-success mb-2">Live</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="dashboard-post-edit.html"
+															class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">Bad habits
+															that people in the industry need to quit</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Larry Lawson</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Dec 06, 2022</td>
+												<!-- Table data -->
+												<td>
+													<a href="#" class="badge text-bg-primary mb-2"><i
+															class="fas fa-circle me-2 small fw-bold"></i>Sports</a>
+												</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-danger bg-opacity-10 text-danger mb-2">Removed</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="dashboard-post-edit.html"
+															class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<h6 class="course-title mt-2 mt-md-0 mb-0"><a href="#">Around the
+															web: 20 fabulous infographics about business</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>
+													<h6 class="mb-0"><a href="#">Bryan Knight</a></h6>
+												</td>
+												<!-- Table data -->
+												<td>Feb 14, 2022</td>
+												<!-- Table data -->
+												<td>
+													<a href="#" class="badge text-bg-danger mb-2"><i
+															class="fas fa-circle me-2 small fw-bold"></i>Travel</a>
+												</td>
+												<!-- Table data -->
+												<td>
+													<span
+														class="badge bg-success bg-opacity-10 text-success mb-2">Live</span>
+												</td>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex gap-2">
+														<a href="#" class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Delete"><i class="bi bi-trash"></i></a>
+														<a href="dashboard-post-edit.html"
+															class="btn btn-light btn-round mb-0"
+															data-bs-toggle="tooltip" data-bs-placement="top"
+															title="Edit"><i class="bi bi-pencil-square"></i></a>
+													</div>
+												</td>
+											</tr>
+
+										</tbody>
+										<!-- Table body END -->
+									</table>
+								</div>
+								<!-- Blog list table END -->
+
+								<!-- Pagination START -->
+								<div class="d-sm-flex justify-content-sm-between align-items-sm-center mt-4 mt-sm-3">
+									<!-- Content -->
+									<p class="mb-sm-0 text-center text-sm-start">Showing 1 to 8 of 20 entries</p>
+									<!-- Pagination -->
+									<nav class="mb-sm-0 d-flex justify-content-center" aria-label="navigation">
+										<ul class="pagination pagination-sm pagination-bordered mb-0">
+											<li class="page-item disabled">
+												<a class="page-link" href="#" tabindex="-1"
+													aria-disabled="true">Prev</a>
+											</li>
+											<li class="page-item"><a class="page-link" href="#">1</a></li>
+											<li class="page-item active"><a class="page-link" href="#">2</a></li>
+											<li class="page-item disabled"><a class="page-link" href="#">..</a></li>
+											<li class="page-item"><a class="page-link" href="#">15</a></li>
+											<li class="page-item">
+												<a class="page-link" href="#">Next</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<!-- Pagination END -->
+							</div>
+						</div>
+						<!-- Blog list table END -->
+					</div>
+					<div class="col-xl-8">
+						<!-- Chart START -->
+						<div class="card border h-100">
+
+							<!-- Card header -->
+							<div class="card-header p-3 border-bottom">
+								<h5 class="card-header-title mb-0">Traffic stats</h5>
+							</div>
+							<!-- Card body -->
+							<div class="card-body">
+								<!-- Apex chart -->
+								<div id="apexChartTrafficStats" class="mt-2"></div>
+							</div>
+						</div>
+						<!-- Chart END -->
+					</div>
+
+					<div class="col-md-6 col-xxl-4">
+						<!-- Latest blog START -->
+						<div class="card border h-100">
+							<!-- Card header -->
+							<div class="card-header border-bottom p-3">
+								<h5 class="card-header-title mb-0">Latest post</h5>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body p-3">
+
+								<div class="row">
+									<!-- Blog item -->
+									<div class="col-12">
+										<div class="d-flex align-items-center position-relative">
+											<img class="w-60 rounded" src="assets/images/blog/1by1/01.jpg"
+												alt="product">
+											<div class="ms-3">
+												<a href="#" class="h6 stretched-link">Dirty little secrets about the
+													business industry</a>
+												<p class="small mb-0">Jun 17, 2022</p>
+											</div>
+										</div>
+									</div>
+
+									<!-- Divider -->
+									<hr class="my-3">
+
+									<!-- Blog item -->
+									<div class="col-12">
+										<div class="d-flex align-items-center position-relative">
+											<img class="w-60 rounded" src="assets/images/blog/1by1/02.jpg"
+												alt="product">
+											<div class="ms-3">
+												<a href="#" class="h6 stretched-link">12 worst types of business
+													accounts you follow on Twitter</a>
+												<p class="small mb-0">Nov 11, 2022</p>
+											</div>
+										</div>
+									</div>
+
+									<!-- Divider -->
+									<hr class="my-3">
+
+									<!-- Blog item -->
+									<div class="col-12">
+										<div class="d-flex align-items-center position-relative">
+											<img class="w-60 rounded" src="assets/images/blog/1by1/03.jpg"
+												alt="product">
+											<div class="ms-3">
+												<a href="#" class="h6 stretched-link">Bad habits that people in the
+													industry need to quit</a>
+												<p class="small mb-0">Sep 01, 2022</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Card body END -->
+
+							<!-- Card footer -->
+							<div class="card-footer border-top text-center p-3">
+								<a href="#">View all Posts</a>
+							</div>
+
+						</div>
+						<!-- Latest blog END -->
+					</div>
+
+					<div class="col-md-6 col-xxl-4">
+						<!-- Recent comment START -->
+						<div class="card border h-100">
+							<!-- Card header -->
+							<div class="card-header border-bottom p-3">
+								<h5 class="card-header-title mb-0">Recent comments</h5>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body p-3">
+
+								<div class="row">
+									<!-- Comment item -->
+									<div class="col-12">
+										<div class="d-flex align-items-center position-relative">
+											<!-- Avatar -->
+											<div class="avatar avatar-lg flex-shrink-0">
+												<img class="avatar-img rounded-2" src="assets/images/avatar/06.jpg"
+													alt="avatar">
+											</div>
+											<!-- Info -->
+											<div class="ms-3">
+												<p class="mb-1"> <a class="h6 fw-normal stretched-link" href="#">
+														Supposing so be resolving breakfast am or perfectly.. </a></p>
+												<div class="d-flex justify-content-between">
+													<p class="small mb-0">by Joan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Divider -->
+									<hr class="my-3">
+
+									<!-- Comment item -->
+									<div class="col-12">
+										<div class="d-flex align-items-center position-relative">
+											<!-- Avatar -->
+											<div class="avatar avatar-lg flex-shrink-0">
+												<img class="avatar-img rounded-2" src="assets/images/avatar/08.jpg"
+													alt="avatar">
+											</div>
+											<!-- Info -->
+											<div class="ms-3">
+												<p class="mb-1"> <a class="h6 fw-normal stretched-link" href="#"> We
+														focus a great deal on the understanding of behavioral.. </a></p>
+												<div class="d-flex justify-content-between">
+													<p class="small mb-0">by Allen Smith</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Divider -->
+									<hr class="my-3">
+
+									<!-- Comment item -->
+									<div class="col-12">
+										<div class="d-flex align-items-center position-relative">
+											<!-- Avatar -->
+											<div class="avatar avatar-lg flex-shrink-0">
+												<img class="avatar-img rounded-2" src="assets/images/avatar/04.jpg"
+													alt="avatar">
+											</div>
+											<!-- Info -->
+											<div class="ms-3">
+												<p class="mb-1"> <a class="h6 fw-normal stretched-link" href="#">
+														Supposing so be resolving breakfast am or perfectly.. </a></p>
+												<div class="d-flex justify-content-between">
+													<p class="small mb-0">by Louis Ferguson</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Divider -->
+									<hr class="my-3">
+
+									<!-- Comment item -->
+									<div class="col-12">
+										<div class="d-flex align-items-center position-relative">
+											<!-- Avatar -->
+											<div class="avatar avatar-lg flex-shrink-0">
+												<img class="avatar-img rounded-2" src="assets/images/avatar/05.jpg"
+													alt="avatar">
+											</div>
+											<!-- Info -->
+											<div class="ms-3">
+												<p class="mb-1"> <a class="h6 fw-normal stretched-link" href="#">
+														Supposing so be resolving breakfast am or perfectly.. </a></p>
+												<div class="d-flex justify-content-between">
+													<p class="small mb-0">by Joan Wallace</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Card body END -->
+						</div>
+						<!-- Recent comment END -->
+					</div>
+
+					<div class="col-md-6 col-xxl-4">
+						<!-- Notice board START -->
+						<div class="card border h-100">
+							<!-- Card header -->
+							<div
+								class="card-header border-bottom d-flex justify-content-between align-items-center  p-3">
+								<h5 class="card-header-title mb-0">Notice board</h5>
+								<!-- Dropdown button -->
+								<div class="dropdown text-end">
+									<a href="#" class="btn border-0 p-0 mb-0" role="button" id="dropdownShare3"
+										data-bs-toggle="dropdown" aria-expanded="false">
+										<i class="bi bi-three-dots fa-fw"></i>
+									</a>
+									<!-- dropdown button -->
+									<ul class="dropdown-menu dropdown-w-sm dropdown-menu-end min-w-auto shadow rounded"
+										aria-labelledby="dropdownShare3">
+										<li><a class="dropdown-item" href="#"><i
+													class="bi bi-pencil-square fa-fw me-2"></i>Edit</a></li>
+										<li><a class="dropdown-item" href="#"><i
+													class="bi bi-trash fa-fw me-2"></i>Remove</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body p-3">
+								<div class="custom-scrollbar h-350">
+									<div class="row">
+										<!-- Notice board item -->
+										<div class="col-12">
+											<div class="d-flex justify-content-between position-relative">
+												<div class="d-sm-flex">
+													<div
+														class="icon-lg bg-warning bg-opacity-15 text-warning rounded-2 flex-shrink-0">
+														<i class="fas fa-user-tie fs-5"></i>
+													</div>
+													<!-- Info -->
+													<div class="ms-0 ms-sm-3 mt-2 mt-sm-0">
+														<h6 class="mb-0"><a href="#" class="stretched-link">Join New
+																Author</a></h6>
+														<p class="mb-0">Amongst moments do in arrived Fat weddings
+															believed prospect</p>
+														<span class="small">5 min ago</span>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<!-- Divider -->
+										<hr class="my-3">
+
+										<!-- Notice board item -->
+										<div class="col-12">
+											<div class="d-flex justify-content-between position-relative">
+												<div class="d-sm-flex">
+													<div
+														class="icon-lg bg-success bg-opacity-10 text-success rounded-2 flex-shrink-0">
+														<i class="bi bi-chat-left-quote-fill fs-5"></i>
+													</div>
+													<!-- Info -->
+													<div class="ms-0 ms-sm-3 mt-2 mt-sm-0">
+														<h6 class="mb-0"><a href="#" class="stretched-link">Add 5 New
+																Blogs</a></h6>
+														<p class="mb-0">Arrived Fat weddings believed prospect</p>
+														<span class="small">4 hour ago</span>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<!-- Divider -->
+										<hr class="my-3">
+
+										<!-- Notice board item -->
+										<div class="col-12">
+											<div class="d-flex justify-content-between position-relative">
+												<div class="d-sm-flex">
+													<div
+														class="icon-lg bg-danger bg-opacity-10 text-danger rounded-2 flex-shrink-0">
+														<i class="bi bi-bell-fill fs-5"></i>
+													</div>
+													<!-- Info -->
+													<div class="ms-0 ms-sm-3 mt-2 mt-sm-0">
+														<h6 class="mb-0"><a href="#" class="stretched-link">5 New
+																Subscribers</a></h6>
+														<p class="mb-0">Weddings believed prospect Arrived</p>
+														<span class="small">4 hour ago</span>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<!-- Divider -->
+										<hr class="my-3">
+
+										<!-- Notice board item -->
+										<div class="col-12">
+											<div class="d-flex justify-content-between position-relative">
+												<div class="d-sm-flex">
+													<div
+														class="icon-lg bg-primary bg-opacity-10 text-primary rounded-2 flex-shrink-0">
+														<i class="fas fa-globe fs-5"></i></div>
+													<!-- Info -->
+													<div class="ms-0 ms-sm-3 mt-2 mt-sm-0">
+														<h6 class="mb-0"><a href="#" class="stretched-link">Update New
+																Feature</a></h6>
+														<span class="small">3 days ago</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div><!-- Row END -->
+								</div>
+							</div>
+							<!-- Card body END -->
+
+							<!-- Card footer -->
+							<div class="card-footer border-top text-center p-3">
+								<a href="#">View all Notice List</a>
+							</div>
+
+						</div>
+						<!-- Notice board END -->
+					</div>
+
+					<div class="col-md-6 col-xxl-4">
+						<div class="card border h-100">
+
+							<!-- Card header -->
+							<div
+								class="card-header border-bottom d-flex justify-content-between align-items-center p-3">
+								<h5 class="card-header-title mb-0">Traffic sources</h5>
+								<a href="#" class="btn btn-sm btn-link p-0 mb-0 text-reset">View all</a>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body p-4">
+								<!-- Chart -->
+								<div class=" mx-auto">
+									<div id="apexChartTrafficSources"></div>
+								</div>
+								<!-- Content -->
+								<ul class="list-inline text-center mt-3">
+									<li class="list-inline-item pe-2"><i class="text-primary fas fa-circle pe-1"></i>
+										Search </li>
+									<li class="list-inline-item pe-2"><i class="text-success fas fa-circle pe-1"></i>
+										Direct </li>
+									<li class="list-inline-item pe-2"><i class="text-danger fas fa-circle pe-1"></i>
+										Social </li>
+									<li class="list-inline-item pe-2"><i class="text-warning fas fa-circle pe-1"></i>
+										Display ads </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+		<!-- =======================
+Main contain END -->
+
+	</main>
+	<!-- **************** MAIN CONTENT END **************** -->
+
+	<!-- =======================
+Footer START -->
+	<footer class="mb-3">
+		<div class="container">
+			<div class="card card-body bg-light">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6">
+						<!-- Copyright -->
+						<div class="text-center text-lg-start">©2022 <a href="https://www.webestica.com/"
+								class="text-reset btn-link" target="_blank">Webestica</a>. All rights reserved
+						</div>
+					</div>
+					<div class="col-lg-6 d-sm-flex align-items-center justify-content-center justify-content-lg-end">
+						<!-- Language switcher -->
+						<div class="dropup me-0 me-sm-3 mt-3 mt-md-0 text-center text-sm-end">
+							<a class="dropdown-toggle text-body" href="#" role="button" id="languageSwitcher"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								English Edition
+							</a>
+							<ul class="dropdown-menu min-w-auto" aria-labelledby="languageSwitcher">
+								<li><a class="dropdown-item" href="#">English</a></li>
+								<li><a class="dropdown-item" href="#">German </a></li>
+								<li><a class="dropdown-item" href="#">French</a></li>
+							</ul>
+						</div>
+						<!-- Links -->
+						<ul
+							class="nav text-center text-sm-end justify-content-center justify-content-center mt-3 mt-md-0">
+							<li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
+							<li class="nav-item"><a class="nav-link pe-0" href="#">Cookies</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- =======================
+Footer END -->
+
+	<!-- Back to top -->
+	<div class="back-top"><i class="bi bi-arrow-up-short"></i></div>
+
+	<!-- =======================
+JS libraries, plugins and custom scripts -->
+
+	<!-- Bootstrap JS -->
+	<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Vendors -->
+	<script src="assets/vendor/apexcharts/js/apexcharts.min.js"></script>
+	<script src="assets/vendor/overlay-scrollbar/js/OverlayScrollbars.min.js"></script>
+
+	<!-- Template Functions -->
+	<script src="assets/js/functions.js"></script>
+
+</body>
+
+</html>
