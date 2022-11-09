@@ -99,8 +99,9 @@ hr,select,input,option,div,h1,h2,h3,h4,h5,h6,h7,a,td,p {
 .bg-dark {
     background-color: #fef0f4 !important;
 }
-
-
+.switch {
+    color: white !important;
+}
 .dropdown-item {
     border-color: #F6658E60 !important;
 }
