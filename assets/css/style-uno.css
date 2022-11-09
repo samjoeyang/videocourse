@@ -73,10 +73,15 @@
     --bs-btn-color: #F6658E;
     --bs-table-color: #F6658E;
 }
-website-title {
-    font-size: 30pt;
+.website-title {
+    font-size: 20pt;
     font-weight: 900;
     color: crimson;
+    text-align: center;
+    vertical-align: middle;
+}
+.website-title:before {
+    content:"视频教程网站(DEMO)"
 }
 hr,select,input,option,div,h1,h2,h3,h4,h5,h6,h7,a,td,p {
     border-color: #F6658E60 !important;
