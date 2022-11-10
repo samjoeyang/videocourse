@@ -85,7 +85,7 @@
 }
 hr,select,input,option,div,h1,h2,h3,h4,h5,h6,h7,a,td,p {
     border-color: #F6658E60 !important;
-    color:#F6658E !important;
+    color:#F6658E ;
 }
 /* input {
     border: 1px solid #F6658E60 !important;
@@ -114,6 +114,9 @@ hr,select,input,option,div,h1,h2,h3,h4,h5,h6,h7,a,td,p {
 .table-dark {
     background-color: #F6658E60 !important;
 }
-.page-item .active > a {
+.active > a {
     color: white !important;
+}
+.btn-primary-soft:hover {
+    color: white!important;
 }
